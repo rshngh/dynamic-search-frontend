@@ -8,7 +8,7 @@ const MyComponent = () => {
   const baseurl =
     import.meta.env.MODE === "development"
       ? "http://localhost:8080/api"
-      : `${window.location.origin}/api`;
+      : `https://dynamic-search-backend.onrender.com/api`;
 
   var url = window.location.origin;
   console.log("url", url);
